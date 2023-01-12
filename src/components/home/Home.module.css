@@ -1,9 +1,85 @@
 .HomeContainer{
-    width: 100%vw;
-    height: 100%vh;
-    padding: 0 50px 0 50px;
+    width: 100%;
+    height: 100vh;
 }
 
 .title{
-    color: black;
+    color: beige;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.HomeHeader{
+    width: 100%;
+    height: 700px;
+    padding: 0 100px 0 100px;
+    background-image: url("../../assets/ats.png");
+    background-size: cover;
+}
+
+.headerDividido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+}
+
+.parra{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+    color: beige;
+}
+.HomeHeader2{
+    width: 100%;
+    height: 700px;
+    padding: 0 100px 0 100px;
+    
+}
+
+.titleContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+
+.titleContainer2{
+    width: 600px;
+    /* background-color: pink; */
+    text-align: center;
+    margin: 50px;
+}
+
+.title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 60px;
+}
+
+.cajaDividida2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.caja{
+    /* background-color: blueviolet; */
+    width: 90%;
+    height: 350px;
+    display: grid;
+    place-items: center;
+}
+
+.caja img{
+    width: 400px;
+    height: 200px;
+}
+
+.title3{
+    color: blue;
+}
+
+.parra2{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+    text-align: center;
 }
