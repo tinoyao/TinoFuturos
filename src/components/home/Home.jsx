@@ -31,12 +31,12 @@ const Home = () => {
           <div className={s.caja}>
           <img src="https://cdnupc-assets.s3.amazonaws.com/wp-content/uploads/2022/03/17163958/joven-programando-ingenieria-de-software-upc-1-1024x536.jpg" alt="" />
             <h2 className={s.title3}>Mantenimiento</h2>
-            <p className={s.parra2}>Hacemos que tu pagina funcione en todo momento.</p>
+            <p className={s.parra2}>Hacemos que tu pagina funcione en todo momento.Corregimos Bugs,Te ayudamos a corregir errores de codigo y más.</p>
           </div>
           <div className={s.caja}>
           <img src="https://files.lafm.com.co/assets/public/2022-02/trading.jpg?1acQ40ouZjwltxIQzQQNfZbLJpr.7Xov" alt="" />
-            <h2 className={s.title3}>Corregimos Bugs</h2>
-            <p className={s.parra2}>Te ayudamos a corregir errores de codigo y más.</p>
+            <h2 className={s.title3}>Modernización</h2>
+            <p className={s.parra2}>Pasamos tu sitio de la teccnología vieja a React, con mejores diseños, o si quieres mantener los actuales, no hay problema, lo hacemos por vos!</p>
           </div>
         </div>
       </div>
