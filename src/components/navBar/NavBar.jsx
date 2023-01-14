@@ -6,6 +6,20 @@ const NavBarExample = () => {
     return(
        <>    
        <Navbar className={s.navBg} variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark">
+            <Container>
+                <Navbar.Brand href="#home">
+                    <img
+                    alt=""
+                    src="/logo.svg"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                    />{' '}
+                    React Bootstrap
+                </Navbar.Brand>
+            </Container>
+        </Navbar>
         <Container>
             <Navbar.Brand as={Link} to="/" >Anana Tech Solutions</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
