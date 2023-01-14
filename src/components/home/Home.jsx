@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap';
 import s from './Home.module.css';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
           <div>
             <p className={s.parra}>Anana<br/>Tech Solutions</p>
           </div>
-          <div>
+          <div className={s.dejaLaTec}>
             <h1 className={s.title}>
               Deja la tecnologia para nosotros
             </h1>

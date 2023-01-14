@@ -5,8 +5,10 @@
 
 .title{
     color: beige;
-    font-size: 100px;
+    font-size: 90px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    overflow-wrap: break-word;
 }
 
 .HomeHeader{
@@ -21,6 +23,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     padding-top: 50px;
+    overflow-wrap: break-word;
 }
 
 .parra{
@@ -28,6 +31,12 @@
     margin-bottom: 0;
     color: beige;
 }
+
+.dejaLaTec{
+    display: grid;
+    place-content: center;
+}
+
 .HomeHeader2{
     width: 100%;
     height: 700px;
@@ -82,4 +91,65 @@
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 0;
     text-align: center;
+}
+
+@media screen and (max-width:1024px){
+    .headerDividido{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        padding-top: 50px;
+        overflow-wrap: break-word;
+    }
+
+    .title{
+        color: beige;
+        font-size: 90px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .cajaDividida2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        row-gap: 2rem;
+    }
+
+    .HomeHeader2{
+        padding: 0;   
+    }
+}
+
+@media screen and (max-width:768px){
+    .title{
+        text-align: center;
+    }
+
+    .cajaDividida2{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        row-gap: 2rem;
+    }
+
+    .HomeHeader{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .HomeHeader2{
+        padding: 0;   
+    }
+}
+
+@media screen and (max-width:560px){
+    .title{
+        font-size: 60px;
+        max-width: 275px;
+    }
+}
+
+@media screen and (max-width:280px){
+    .HomeHeader{
+        padding: 0 0.3rem 0 0.3rem;
+    }
 }
