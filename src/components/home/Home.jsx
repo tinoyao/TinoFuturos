@@ -13,7 +13,7 @@ const Home = () => {
           </div>
           <div className={s.dejaLaTec}>
             <h1 className={s.title}>
-              Deja la tecnologia para nosotros
+              Dejá la tecnologia para nosotros
             </h1>
           </div>
         </div>
