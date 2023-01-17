@@ -6,22 +6,17 @@ const NavBarExample = () => {
     return(
        <>    
        <Navbar className={s.navBg} variant="dark" expand="lg">
-        <Navbar bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand href="#home">
-                    <img
+        <Container>
+            <Navbar.Brand as={Link} to="/" >
+                <img
                     alt=""
-                    src="/logo.svg"
-                    width="30"
-                    height="30"
+                    src="/logo_anana.png"
+                    width="100"
+                    height="40"
                     className="d-inline-block align-top"
                     />{' '}
-                    React Bootstrap
-                </Navbar.Brand>
-            </Container>
-        </Navbar>
-        <Container>
-            <Navbar.Brand as={Link} to="/" >Anana Tech Solutions</Navbar.Brand>
+                    {/* Anana Tech Solutions */}
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
