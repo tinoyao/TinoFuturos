@@ -1,3 +1,5 @@
+
 .navBg {
-    background-color: rgb(93, 93, 223);
+    background: linear-gradient(90deg,#7464E1,#0A3B98);
+    font-size: 20px;
 }

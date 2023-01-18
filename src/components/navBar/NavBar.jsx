@@ -5,21 +5,21 @@ import s from './NavBar.module.css'
 const NavBarExample = () => {
     return(
        <>    
-       <Navbar className={s.navBg} variant="dark" expand="lg">
+       <Navbar className={s.navBg} fixed="top" variant="dark" expand="lg">
         <Container>
             <Navbar.Brand as={Link} to="/" >
                 <img
                     alt=""
-                    src="/logo_anana2.png"
-                    width="100"
-                    height="40"
+                    src="/logo_original.png"
+                    width="180"
+                    height="90"
                     className="d-inline-block align-top"
                     />{' '}
                     {/* Anana Tech Solutions */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link as={Link} to="/" >Inicio</Nav.Link>
                 <Nav.Link as={Link} to="/about">Nosotros</Nav.Link>
                 <Nav.Link as={Link} to="/contact">Contacto</Nav.Link>                

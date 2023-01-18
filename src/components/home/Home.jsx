@@ -9,7 +9,7 @@ const Home = () => {
       <div className={s.HomeHeader}>
         <div className={s.headerDividido}>
           <div>
-            <p className={s.parra}>Anana<br/>Tech Solutions</p>
+            {/* <p className={s.parra}>Anana<br/>Tech Solutions</p> */}
           </div>
           <div className={s.dejaLaTec}>
             <h1 className={s.title}>
