@@ -1,0 +1,20 @@
+.ContainerCont{
+    width: 100%;
+    height: 100vh;
+}
+
+.Container1{
+    width: 100%;
+    height: 500px;
+    padding: 120px 100px 0px 100px;
+}
+
+h2{
+    color: blueviolet;
+}
+
+.container2{
+    width: 100%;
+    height: 500px;
+    padding: 0px 100px 0 100px;
+}
