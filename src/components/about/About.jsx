@@ -30,7 +30,7 @@ const About = () => {
                         color="blueviolet"
                         variant="h3"
                     >
-                        Este es el logo de anana tech solutions ok
+                        Este es el logo de anana tech solutions
                     </Typography>
                     {/* <Typography
                         align="center"
