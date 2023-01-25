@@ -62,6 +62,12 @@ const Contact = () => {
                 </p>
 
             </div>
+            <div>
+                <form action="">
+                    <label htmlFor="">hola aquí</label>
+                    <input type="text" />
+                </form>
+            </div>
         </div>
     )
 }
