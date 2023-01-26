@@ -66,6 +66,7 @@ const Contact = () => {
                 <form action="">
                     <label htmlFor="">hola aquí</label>
                     <input type="text" />
+                    <button type="submit"></button>
                 </form>
             </div>
         </div>
