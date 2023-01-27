@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
             <div>
                 <form action="">
-                    <label htmlFor="">hola aquí</label>
+                    <label htmlFor="">hola aquí deja tu like</label>
                     <input type="text" />
                     <button type="submit"></button>
                 </form>
