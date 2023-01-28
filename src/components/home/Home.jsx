@@ -2,6 +2,8 @@ import React from 'react'
 import { Card, Button } from 'react-bootstrap';
 import s from './Home.module.css';
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   return (
@@ -11,17 +13,35 @@ const Home = () => {
           <div>
             {/* <p className={s.parra}>Anana<br/>Tech Solutions</p> */}
           </div>
-          <div className={s.dejaLaTec}>
-            <h1 className={s.title}>
-              Dejá la tecnologia para nosotros
-            </h1>
-          </div>
+          <Fade right>
+            <div className={s.dejaLaTec}>
+              <h1 className={s.title}>
+                Dejá la tecnologia para nosotros
+              </h1>
+            </div>
+          </Fade>
         </div>
       </div>
       <div className={s.HomeHeader2}>
         <div className={s.titleContainer}>
           <div className={s.titleContainer2}>
-           <h2 className={s.title2}>Lo que ofrecemos</h2>
+            <h2 className={s.title2}>
+              <Typewriter
+                options={{
+                  strings: [
+                    "Lo que ofrecemos",
+                    "Desarrollo de software",
+                    "UI/UX Design",
+                    "Digital Marketing",
+                    "Customer Service",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  delay: 7,
+                }}
+              />
+            </h2>
+           {/* <h2 className={s.title2}>Lo que ofrecemos</h2> */}
           </div>
         </div>
         <div className={s.cajaDividida2}>

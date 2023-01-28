@@ -1,72 +1,89 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import { Box, Button, Container, Typography } from '@mui/material';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import s from './About.module.css';
-
+import React from "react";
+import "./about.css";
+import about from "../../assets/about.jpg";
+import Fade from "react-reveal/Fade";
+import { FcSlrBackSide, FcWorkflow, FcShop } from "react-icons/fc";
 
 const About = () => {
-    return(
-        <div className={s.containerAbout}>
-            <Box
-            component="main"
-            sx={{
-                alignItems: 'center',
-                display: 'flex',
-                flexGrow: 1,
-                minHeight: '100%'
-            }}
-            >
-                <Container maxWidth="md">
-                    <Box
-                    sx={{
-                        alignItems: 'center',
-                        display: 'flex',
-                        flexDirection: 'column'
-                    }}
-                    >
-                    <Typography
-                        align="center"
-                        color="blueviolet"
-                        variant="h3"
-                    >
-                        Este es el logo de anana tech solutions
-                    </Typography>
-                    {/* <Typography
-                        align="center"
-                        color="textPrimary"
-                        variant="subtitle2"
-                    >
-                        O intentaste una ruta sombría o viniste aquí por error.
-                        Sea lo que sea, intenta usar la navegación
-                    </Typography> */}
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img
-                        alt="Under development"
-                        src="/logo-original2.svg"
-                        style={{
-                            marginTop: 50,
-                            display: 'inline-block',
-                            maxWidth: '100%',
-                            width: 560
-                        }}
-                        />
-                    </Box>
-                    <Link to='/' >
-                        <Button
-                            component="a"
-                            startIcon={(<ArrowBackIcon fontSize="small" />)}
-                            sx={{ mt: 3 }}
-                            variant="contained"
-                            color='secondary'
-                        >
-                            Volver
-                        </Button>
-                    </Link>
-                    </Box>
-                </Container>
-            </Box>
-        </div>
-    )
-}
-export default About
+  return (
+    <div className="container about-section" id="about">
+      <div className="row">
+        <Fade left>
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div className="about-image">
+              <img src={about} alt="about_image" />
+            </div>
+          </div>
+        </Fade>
+        <Fade right>
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div className="about-details">
+              <div className="about-title">
+                <h5>Nosotros</h5>
+                <span className="line"></span>
+              </div>
+
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+
+                <div className="card-design">
+                    <div className="about-list-item">
+                        <div className="about-details-icon">
+                            <p>
+                            <FcSlrBackSide size={50} />
+                            </p>
+                        </div>
+                        <div>
+                            <h6>Perfect day out</h6>
+                            <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+              <div className="card-design">
+                <div className="about-list-item">
+                  <div className="about-details-icon">
+                    <p>
+                      <FcWorkflow size={50} />
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Perfect day out</h6>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card-design">
+                <div className="about-list-item">
+                  <div className="about-details-icon">
+                    <p>
+                      <FcShop size={50} />
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Perfect day out</h6>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Fade>
+      </div>
+    </div>
+  );
+};
+
+export default About;
