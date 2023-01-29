@@ -31,9 +31,9 @@ const Home = () => {
                   strings: [
                     "Lo que ofrecemos",
                     "Desarrollo de software",
+                    "Modernización",
+                    "Mantenimiento",
                     "UI/UX Design",
-                    "Digital Marketing",
-                    "Customer Service",
                   ],
                   autoStart: true,
                   loop: true,
