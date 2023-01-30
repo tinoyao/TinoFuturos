@@ -71,7 +71,7 @@ const Home = () => {
             <Card.Img variant="top" src="https://cdnupc-assets.s3.amazonaws.com/wp-content/uploads/2022/03/17163958/joven-programando-ingenieria-de-software-upc-1-1024x536.jpg" />
             <Card.Body>
               <Card.Title>Mantenimiento</Card.Title>
-              <Card.Text>
+              <Card.Text >
                 Hacemos que tu pagina funcione en todo momento.Corregimos Bugs,Te ayudamos a corregir errores de codigo y más.
               </Card.Text>
               <Link to='/about'>
@@ -87,8 +87,8 @@ const Home = () => {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src="https://concepto.de/wp-content/uploads/2018/02/sistemas-de-informacion.jpg" />
             <Card.Body>
-              <Card.Title >Modernización</Card.Title>
-              <Card.Text>
+              <Card.Title /* className='text-primary' */>Modernización</Card.Title>
+              <Card.Text >
                 Pasamos tu sitio web de la teccnología vieja a React, con mejores diseños, nosotros lo hacemos por vos!.
               </Card.Text>
               <Link to='/about'>
