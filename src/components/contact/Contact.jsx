@@ -70,7 +70,7 @@ const Contact = () => {
                     <input type="text" />
                     <label htmlFor="">password</label>
                     <input type="password" />
-                    <button type="submit"></button>
+                    <button type="submit">enviar</button>
                 </form>
             </div>
         </div>
